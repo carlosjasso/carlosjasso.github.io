@@ -1,0 +1,62 @@
+.welcome {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome .avatar {
+    margin: 12px;
+    width: 300px;
+    height: 300px;
+}
+
+.avatar img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+.description {
+    margin: 12px;
+    max-width: 360px;
+    font-size: 3.5rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-style: oblique;
+    letter-spacing: 2px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.link {
+    color: inherit;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-right: 24px;
+    transition: transform 0.3s ease-out;
+}
+
+.link:last-child {
+    margin-right: 0px;
+}
+
+.link:hover {
+    transform: translateY(-8px);
+}
+
+.link svg {
+    height: 36px;
+    width: 36px;
+    margin-right: 4px;
+}

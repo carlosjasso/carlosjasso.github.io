@@ -1,3 +1,11 @@
+.page-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: 'Roboto', sans-serif;
+    flex-grow: 1;
+}
+
 .welcome {
     display: flex;
     flex-direction: row;

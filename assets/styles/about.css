@@ -1,0 +1,28 @@
+.page-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.page-title {
+    text-align: center;
+}
+
+.avatar {
+    text-align: center;
+}
+
+.avatar img {
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.7);
+}
+
+.text-content {
+    max-width: 800px;
+    align-self: center;
+    margin-left: 12px;
+    margin-right: 12px;
+}

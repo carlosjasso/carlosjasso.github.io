@@ -107,3 +107,7 @@ body {
     font-size: 1.2rem;
     margin: .8rem 0;
 }
+
+.emoji img {
+    width: 20px;
+}
